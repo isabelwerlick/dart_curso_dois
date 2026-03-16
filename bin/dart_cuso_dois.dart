@@ -13,6 +13,7 @@ void main() {                                                                   
 // Parâmetros "Padrão": são os parâmetros que possuem um valor padrão definido na função. Se o valor não for fornecido ao chamar a função, o valor padrão será usado. Exemplo:
 // Modificador "required": é usado para indicar que um parâmetro nomeado é obrigatório. Ele deve ser fornecido ao chamar a função, caso contrário, ocorrerá um erro de compilação. Exemplo:
 
+
 }
 
 bool funcEstaMadura(int dias) {                                                 // função que verifica se a fruta está madura com base no número de dias desde a colheita//
@@ -22,3 +23,5 @@ bool funcEstaMadura(int dias) {                                                 
     return  false;                                                             // se a condição for falsa, a função retorna false (falso)//
     }
 }
+
+//https://cursos.alura.com.br/course/dart-entendendo-orientacao-objetos/task/104859
