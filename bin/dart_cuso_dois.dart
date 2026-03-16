@@ -4,13 +4,18 @@ void main() {                                                                   
   String cor = "Verde e Amarela";                                                // variável do tipo String que armazena a cor da fruta//  //texto//
   String sabor = "Doce e cítrica";                                               // variável do tipo String que armazena o sabor da fruta//  //texto//
   int diasDesdeColheita = 40;                                                    // variável do tipo int que armazena o número de dias desde a colheita da fruta//   //número inteiro//
-  bool istaMadura;                                                               // variável do tipo bool que indica se a fruta está madura ou não//  //verdadeiro ou falso//
+  bool isMadura = funcEstaMadura(diasDesdeColheita);                             // variável do tipo bool que indica se a fruta está madura ou não//  //verdadeiro ou falso//   // imprime o nome da fruta na tela//
+  
+                                                                                 
+print (isMadura);
+print (funcEstaMadura(diasDesdeColheita));
 
-  if (diasDesdeColheita >= 30) {                                                 // condição que verifica se a fruta está madura com base no número de dias desde a colheita//
-    istaMadura = true;                                                           // se a condição for verdadeira, a variável istaMadura é definida como true (verdadeiro)//
-  } else {                                                                       // se a condição for falsa, a variável istaMadura é definida como false (falso)//
-    istaMadura = false;                   }
 }
 
-
-     
+bool funcEstaMadura(int dias) {                                                    // função que verifica se a fruta está madura com base no número de dias desde a colheita//
+  if (dias >= 30) {                                                               // condição que verifica se o número de dias é maior ou igual a 30//
+    return  true;                                                                    // se a condição for verdadeira, a função retorna true (verdadeiro)//
+  } else {                                                                         // se a condição for falsa, a função retorna false (falso)//
+    return  false;
+    }
+}
