@@ -19,3 +19,4 @@ bool funcEstaMadura(int dias) {                                                 
     return  false;                                                             // se a condição for falsa, a função retorna false (falso)//
     }
 }
+// vamos lá, está ficando bom//
