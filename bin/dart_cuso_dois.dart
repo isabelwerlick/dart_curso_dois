@@ -8,14 +8,14 @@ void main() {                                                                   
   
                                                                                  
 print (isMadura);
-print (funcEstaMadura(diasDesdeColheita));
+print (funcEstaMadura(50));                                                      // imprime o resultado da função funcEstaMadura com o argumento 50, indicando se a fruta está madura ou não//
 
 }
 
-bool funcEstaMadura(int dias) {                                                    // função que verifica se a fruta está madura com base no número de dias desde a colheita//
-  if (dias >= 30) {                                                               // condição que verifica se o número de dias é maior ou igual a 30//
-    return  true;                                                                    // se a condição for verdadeira, a função retorna true (verdadeiro)//
-  } else {                                                                         // se a condição for falsa, a função retorna false (falso)//
-    return  false;
+bool funcEstaMadura(int dias) {                                                 // função que verifica se a fruta está madura com base no número de dias desde a colheita//
+  if (dias >= 30) {                                                             // condição que verifica se o número de dias é maior ou igual a 30//
+    return  true;                                                               // se a condição for verdadeira, a função retorna true (verdadeiro)//
+  } else {                                                                         
+    return  false;                                                             // se a condição for falsa, a função retorna false (falso)//
     }
 }
