@@ -11,7 +11,7 @@ void main() {
   mostrarMadura("Uva", 40, cor: "Roxa");
   }
 
-mostrarMadura(String nome, int dias, {String? cor = "Roxa"}) {
+mostrarMadura(String nome, int dias, {required String cor}) {
   
 
   if (dias >= 30) {
@@ -37,4 +37,4 @@ bool funcEstaMadura(int dias) {
 }
 }
 
-//https://cursos.alura.com.br/course/dart-entendendo-orientacao-objetos/task/104859
+
