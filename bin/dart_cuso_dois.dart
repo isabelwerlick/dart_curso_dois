@@ -60,3 +60,5 @@ class Fruta {
         "A sua $nome foi colhida há $diasDesdeColheita dias e está madura? $isMadura");
   }
 }
+
+https://cursos.alura.com.br/course/dart-entendendo-orientacao-objetos/task/104864
